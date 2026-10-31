@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "& { .\\.venv\\Scripts\\activate }"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
